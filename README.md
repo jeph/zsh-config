@@ -29,14 +29,12 @@ Install powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 ### .zshrc setup
-Clone the repo and symlink `.zshrc` file for Oh My Zsh to access. 
-Changes to the file in this directory are linked to the file in the
-`$HOME` directory. You'll have to link again if you ever move the 
-`.zshrc` file.
+Clone the repo and copy `.zshrc` file for Oh My Zsh to access. 
+You'll have to copy again if you ever change the `.zshrc` file here.
 ```
 git clone https://github.com/jeph/zsh-config.git
 cd zsh-config
-ln -s $PWD/.zshrc $HOME/.zshrc
+cp $PWD/.zshrc $HOME/.zshrc
 source $HOME/.zshrc
 ```
 ### Configure theme
