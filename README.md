@@ -1,7 +1,7 @@
 # zsh config
-This is my personal zsh config. I made this so I don't have to manually
-set up zsh every time I get a new computer. Feel free to use it if 
-you'd like.
+This is my personal zsh config. I made this so I don't have to learn
+how to set up zsh again every time I get a new computer. Feel free to 
+use it if you'd like.
 ![Command Line Image Example](cmdline.png)
 ## Setup
 Setup is specific to macOS
@@ -15,7 +15,7 @@ Install Oh My Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-### Install plugins
+### Install themes and plugins
 Install zsh-autosuggestions
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
