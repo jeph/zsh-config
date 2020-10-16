@@ -14,13 +14,18 @@ Install Oh My Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-Install Powerline fonts
+### Install plugins
+Install zsh-autosuggestions
 ```
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts
-./install.sh
-cd ..
-rm -rf fonts
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+Install zsh-syntax-highlighting
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+Install powerlevel10k
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 ### .zshrc setup
 Clone the repo and symlink `.zshrc` file for Oh My Zsh to access. 
@@ -32,4 +37,9 @@ git clone git@github.com:jeph/zsh-config.git
 cd zsh-config
 ln -s $PWD/.zshrc $HOME/.zshrc
 source $HOME/.zshrc
+```
+### Configure theme
+Automatic font installation only works in iTerm
+```
+p10k configure
 ```
