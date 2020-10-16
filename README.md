@@ -34,7 +34,7 @@ Changes to the file in this directory are linked to the file in the
 `$HOME` directory. You'll have to link again if you ever move the 
 `.zshrc` file.
 ```
-git clone git@github.com:jeph/zsh-config.git
+git clone https://github.com/jeph/zsh-config.git
 cd zsh-config
 ln -s $PWD/.zshrc $HOME/.zshrc
 source $HOME/.zshrc
