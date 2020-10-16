@@ -42,4 +42,4 @@ Automatic font installation only works in iTerm
 ```
 p10k configure
 ```
-The background color in the photo is `#2c3e50`
+The background color in the photo is `#292E3C`
