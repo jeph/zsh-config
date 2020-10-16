@@ -30,4 +30,5 @@ Changes to the file in this directory are linked to the file in the
 git clone git@github.com:jeph/zsh-config.git
 cd zsh-config
 ln -s $PWD/.zshrc $HOME/.zshrc
+source $HOME/.zshrc
 ```
