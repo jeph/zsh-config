@@ -1,4 +1,5 @@
 # zsh config
+![Command Line Image Example](cmdline.png)
 This is my personal zsh config. I made this so I don't have to manually
 set up zsh every time I get a new computer. Feel free to use it if 
 you'd like.
@@ -43,3 +44,4 @@ Automatic font installation only works in iTerm
 ```
 p10k configure
 ```
+The background color in the photo is `#2c3e50`
