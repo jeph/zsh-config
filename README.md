@@ -1,8 +1,8 @@
 # zsh config
-![Command Line Image Example](cmdline.png)
 This is my personal zsh config. I made this so I don't have to manually
 set up zsh every time I get a new computer. Feel free to use it if 
 you'd like.
+![Command Line Image Example](cmdline.png)
 ## Setup
 Setup is specific to macOS
 ### Basic zsh and Oh My Zsh installation
