@@ -25,7 +25,8 @@ rm -rf fonts
 ### .zshrc setup
 Clone the repo and symlink `.zshrc` file for Oh My Zsh to access. 
 Changes to the file in this directory are linked to the file in the
-`$HOME` directory.
+`$HOME` directory. You'll have to link again if you ever move the 
+`.zshrc` file.
 ```
 git clone git@github.com:jeph/zsh-config.git
 cd zsh-config
