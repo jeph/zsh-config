@@ -11,6 +11,9 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+# Enable case insensitive auto complete.
+CASE_SENSITIVE="false"
+
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
