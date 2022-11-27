@@ -1,7 +1,9 @@
 # zsh config
 This is my personal zsh config. I made this so I don't have to learn
 how to set up zsh again every time I get a new computer. Feel free to 
-use it if you'd like. Note: powerlevel10k has been removed as I'm now
+use it if you'd like. 
+
+Note: powerlevel10k has been removed as I'm now
 using [warp](https://www.warp.dev/) terminal.
 ![Command Line Image Example](cmdline.png)
 ## Setup
