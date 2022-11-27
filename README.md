@@ -39,4 +39,3 @@ cd zsh-config
 cp $PWD/.zshrc $HOME/.zshrc
 source $HOME/.zshrc
 ```
-The background color in the photo is `#292E3C`
