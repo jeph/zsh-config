@@ -7,10 +7,15 @@ using [warp](https://www.warp.dev/) terminal.
 ## Setup
 Setup is specific to macOS
 ### Basic zsh and Oh My Zsh installation
-Install zsh
+Install zsh (Consider installing all packages and applications using a `Brewfile`
+such as [this](https://github.com/jeph/brewfile))
 ```
 brew install zsh
-chsh -s /usr/local/bin/zsh
+```
+Set zsh as the default shell in macOS
+```
+sudo sh -c "echo $(which zsh) >> /etc/shells"
+chsh -s $(which zsh)
 ```
 Install Oh My Zsh
 ```
