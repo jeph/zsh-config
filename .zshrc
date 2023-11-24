@@ -10,6 +10,10 @@ plugins=(
   zsh-syntax-highlighting
 )
 
+# git setup
+git config --global user.name "Jeph Liu"
+git config --global user.email jephliu@jeph.io
+
 # Common git aliases
 git config --global alias.co checkout
 git config --global alias.br branch
