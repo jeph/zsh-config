@@ -12,7 +12,7 @@ export ZSH=$HOME/.oh-my-zsh
 CASE_SENSITIVE="false"
 
 # Use powerlevel10k theme
-ZSH_THEME="powerlevel10k/powerlevel10k" 
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
   extract
@@ -47,3 +47,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+alias pn=pnpm
+
+eval "$(zoxide init --cmd cd zsh)"
