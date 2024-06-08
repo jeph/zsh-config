@@ -50,4 +50,5 @@ unset __conda_setup
 
 alias pn=pnpm
 
+# Set up zoxide and replace cd with zoxide
 eval "$(zoxide init --cmd cd zsh)"
