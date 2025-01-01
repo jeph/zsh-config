@@ -20,37 +20,12 @@ such as [this](https://github.com/jeph/brewfile))
 brew install zsh
 ```
 
-Set zsh as the default shell in macOS
+Set zsh as the default shell in macOS. This isn't necessary for recent
+macOS versions.
 
 ```zsh
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s $(which zsh)
-```
-
-Install Oh My Zsh
-
-```zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
-### Install themes and plugins
-
-Install zsh-autosuggestions
-
-```zsh
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-```
-
-Install zsh-syntax-highlighting
-
-```zsh
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
-Install powerlevel10k
-
-```zsh
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
 ### .zshrc setup
