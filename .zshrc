@@ -12,13 +12,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Configure nvm
-# Assumes script install as homebrew install is not supported by the authors
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Set up fnm for managing node versions
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 alias pn=pnpm
+alias ls=lsd
 
 # Set up zoxide and replace cd with zoxide
 eval "$(zoxide init --cmd cd zsh)"
