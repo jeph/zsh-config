@@ -72,3 +72,9 @@ git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
 git config --global alias.uncommit 'reset HEAD~1'
 ```
+
+### Set up tmux
+
+`tmux` can be useful when doing things from using the command line. There's an
+example `tmux` config [here](https://github.com/jeph/tmux-config) with some setup 
+instructions for reference.
