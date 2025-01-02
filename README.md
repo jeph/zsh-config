@@ -78,3 +78,10 @@ git config --global alias.uncommit 'reset HEAD~1'
 `tmux` can be useful when doing things from using the command line. There's an
 example `tmux` config [here](https://github.com/jeph/tmux-config) with some setup 
 instructions for reference.
+
+### Setup micro
+
+`micro` is a command line based text editor that's a bit more useful than nano, and much
+less advanced than vim/neovim and emacs. There's more information [here](https://micro-editor.github.io/).
+You can configure to use the same colors as your command line. I personally use the 
+[Catppuccin mocha theme](https://github.com/catppuccin/micro).
