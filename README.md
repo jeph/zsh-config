@@ -30,8 +30,8 @@ chsh -s $(which zsh)
 
 ## Dependencies
 
-This `.zshrc` assumes a few dependencies are installed. I'd recommend installing 
-dependencies using a `Brewfile` and [Homebrew](https://brew.sh/) like the one in 
+This `.zshrc` assumes a few dependencies are installed. I'd recommend installing
+dependencies using a `Brewfile` and [Homebrew](https://brew.sh/) like the one in
 [this repository](https://github.com/jeph/brewfile) if you're on macOS. A (potentially)
 non-exhaustive list of dependencies is below in case you want to install them manually
 or are on Linux or WSL:
