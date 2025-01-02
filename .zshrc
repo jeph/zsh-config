@@ -16,7 +16,7 @@ autoload -Uz compinit && compinit
 zinit cdreplay -q
 
 # Keybindings
-# Use Ctrl + P and Ctrl + N to search through history
+# Use Ctrl + P (prev) and Ctrl + N (next) to search through history
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 
