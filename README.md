@@ -79,7 +79,7 @@ git config --global alias.uncommit 'reset HEAD~1'
 example `tmux` config [here](https://github.com/jeph/tmux-config) with some setup 
 instructions for reference.
 
-### Setup micro
+### Set up micro
 
 `micro` is a command line based text editor that's a bit more useful than nano, and much
 less advanced than vim/neovim and emacs. There's more information [here](https://micro-editor.github.io/).
