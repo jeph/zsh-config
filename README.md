@@ -36,6 +36,7 @@ dependencies using a `Brewfile` and [Homebrew](https://brew.sh/) like the one in
 non-exhaustive list of dependencies is below in case you want to install them manually
 or are on Linux or WSL:
 
+- [Starship - A minimal prompt written in rust](https://starship.rs/)
 - [fzf - A command-line fuzzy finder](https://github.com/junegunn/fzf)
 - [zoxide - A smarter cd command](https://github.com/ajeetdsouza/zoxide)
 - [lsd - A modern ls command](https://github.com/lsd-rs/lsd)

@@ -55,3 +55,6 @@ alias cat=bat
 
 # Set up zoxide and replace cd with zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+# Set up starship prompt
+eval "$(starship init zsh)"
