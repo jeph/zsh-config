@@ -58,3 +58,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # Set up starship prompt
 eval "$(starship init zsh)"
+
+# Configure colors for micro
+export "MICRO_TRUECOLOR=1"
