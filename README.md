@@ -2,14 +2,14 @@
 
 This is my personal zsh config. I made this so I don't have to learn
 how to set up zsh again every time I get a new computer. Feel free to
-use it if you'd like, but keep in mind some aspects of the config, such
-as the `git` setup are specific to me.
+use it if you'd like, but keep in mind some aspects of the config are
+specific to my preferences or workflows.
 
 ![Command Line Image Example](cmdline.png)
 
 ## Setup
 
-Setup is specific to macOS
+Setup is specific to macOS, but other Unix-like systems should be similar.
 
 ### Basic zsh and Oh My Zsh installation
 
@@ -27,6 +27,19 @@ macOS versions.
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s $(which zsh)
 ```
+
+## Dependencies
+
+This `.zshrc` assumes a few dependencies are installed. I'd recommend installing 
+dependencies using a `Brewfile` and [Homebrew](https://brew.sh/) like the one in 
+[this repository](https://github.com/jeph/brewfile) if you're on macOS. A (potentially)
+non-exhaustive list of dependencies is below in case you want to install them manually
+or are on Linux or WSL:
+
+- [fzf - A command-line fuzzy finder](https://github.com/junegunn/fzf)
+- [zoxide - A smarter cd command](https://github.com/ajeetdsouza/zoxide)
+- [lsd - A modern ls command](https://github.com/lsd-rs/lsd)
+- [bat - A cat(1) clone with wings](https://github.com/sharkdp/bat)
 
 ### .zshrc setup
 
