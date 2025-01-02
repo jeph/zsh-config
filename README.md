@@ -11,7 +11,7 @@ specific to my preferences or workflows.
 
 Setup is specific to macOS, but other Unix-like systems should be similar.
 
-### Basic zsh and Oh My Zsh installation
+### Basic zsh installation
 
 Install zsh (Consider installing all packages and applications using a `Brewfile`
 such as [this](https://github.com/jeph/brewfile))
